@@ -157,7 +157,7 @@ with tab3:
             node_color.append('#FF5733') # Оранжевый для мостов
         else:
             node_size.append(15)
-            node_color.append '#3498DB' # Синий для эхо-камер
+            node_color.append('#3498DB') # Синий для эхо-камер
 
     fig_net = go.Figure()
     fig_net.add_trace(go.Scatter(x=edge_x, y=edge_y, mode="lines", line=dict(width=1, color='#888'), hoverinfo='none'))
